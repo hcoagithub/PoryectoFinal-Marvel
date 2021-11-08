@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./style.css"
+import "./style.css";
 
 
 const Navbar=()=>{
@@ -19,7 +19,7 @@ const Navbar=()=>{
 
     <Link className="nav-link" to="/Characters">Characters</Link>
 
-    <Link className="nav-link" to="">Comics</Link>
+    <Link className="nav-link" to="/comics">Comics</Link>
 
     <Link className="nav-link" to="">Events</Link>
 
