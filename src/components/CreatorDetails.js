@@ -16,7 +16,7 @@ const CreadorDetalle = () => {
         getCreadorDetalleSer()
         getCreadorDetalleEve()
         getCreadorDetalleSto()
-
+        console.log(id)
     }, [])
 
 

@@ -17,7 +17,7 @@ const Navbar=()=>{
 
     <Link className="nav-link" to="/Creator">Creadores</Link>
 
-    <Link className="nav-link" to="">Characters</Link>
+    <Link className="nav-link" to="/Characters">Characters</Link>
 
     <Link className="nav-link" to="">Comics</Link>
 

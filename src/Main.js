@@ -6,6 +6,7 @@ import injectContext from "./Store/appContext";
 import Creadores from "./components/Creator";
 
 import CreadorDetalle from "./components/CreatorDetails";
+import Characters from "./components/Characters";
 
 
 const Main=()=>{
@@ -17,6 +18,7 @@ const Main=()=>{
 <Switch>
 <Route exact path="/Creator" component={Creadores}/>
 <Route exact path="/CreatorDetails/:id" component={CreadorDetalle}/>
+<Route exact path="/Characters" component={Characters}/>
   <Route exact paht="/" component={Home}/>
   <Route component={NotFound}/>
 
