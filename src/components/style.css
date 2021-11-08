@@ -1,0 +1,32 @@
+#navbar{
+color: white;
+    background-color: black;
+}
+
+#marvel{
+    width: 100px;
+    height: 100px;
+}
+
+.img{
+    width: 210px;
+    height: 200px;
+}
+
+#cardp{
+    width: 260px;
+    height: 350px;
+    color: white;
+    background-color: black;
+}
+
+small{
+    color: red;
+}
+
+#cardpsto{
+    width: 260px;
+    height: 250px;
+    background-color: black;
+
+}
